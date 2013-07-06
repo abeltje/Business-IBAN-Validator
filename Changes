@@ -1,2 +1,24 @@
-Revision history for Business-IBAN-Validator
+Changes on 2013-07-06 for git repository at:
+  Fetch URL: ssh://git@source.test-smoke.org:9999/~/Business-IBAN-Validator
+  Push  URL: ssh://git@source.test-smoke.org:9999/~/Business-IBAN-Validator
 
+Enjoy!
+
+________________________________________________________________________________
+[c0a255e] by abeltje on Sat, 6 Jul 2013 07:55:19 +0200
+
+     Initial commit for the Business::IBAN::Validator
+
+
+A	Changes
+A	MANIFEST
+A	MANIFEST.SKIP
+A	Makefile.PL
+A	lib/Business/IBAN/Database.pm
+A	lib/Business/IBAN/Validator.pm
+A	support/IBAN_Registry.pdf
+A	support/IBAN_Registry.txt
+A	support/extract_ibandb.pl
+A	t/00-load.t
+A	t/010-basic.t
+A	t/020-iban-auto.t
