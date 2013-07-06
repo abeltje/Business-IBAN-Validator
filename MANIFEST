@@ -1,0 +1,16 @@
+Changes
+lib/Business/IBAN/Database.pm
+lib/Business/IBAN/Validator.pm
+Makefile
+Makefile.PL
+MANIFEST			This list of files
+MANIFEST.SKIP
+MYMETA.json
+MYMETA.yml
+README
+support/extract_ibandb.pl
+support/IBAN_Registry.pdf
+support/IBAN_Registry.txt
+t/00-load.t
+t/010-basic.t
+t/020-iban-auto.t
