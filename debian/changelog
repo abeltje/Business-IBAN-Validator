@@ -1,0 +1,5 @@
+libbusiness-iban-validator-perl (0.1) UNRELEASED; urgency=low
+
+  * Initial release.
+
+ -- Abe Timmerman <abeltje@fidovcs.fritz.box>  Sun, 07 Jul 2013 12:02:30 +0200
