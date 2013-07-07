@@ -1,0 +1,16 @@
+Source: libbusiness-iban-validator-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 7)
+Build-Depends-Indep: perl (>= 5.6.0-12),
+    libtest-exception-perl,
+    libtest-simple-perl
+Maintainer: Abe Timmerman <abeltje@cpan.org>
+Standards-Version: 3.8.0
+
+Package: libbusiness-iban-validator-perl
+Architecture: all
+Depends: ${perl:Depends},
+    ${misc:Depends},
+Description: Provides a validator for IBANs. It can only validate the form of
+ the IBAN and tell you if it's an existing Bank Account Number.

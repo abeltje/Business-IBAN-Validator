@@ -1,0 +1,6 @@
+Files: *
+Copyright: MMXIII, Abe Timmerman <abeltje@cpan.org>
+License: GPL, Artistic
+
+Files: debian/*
+Copyright: MMXIII, Abe Timmerman <abeltje@cpan.org>
