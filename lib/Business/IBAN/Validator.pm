@@ -22,7 +22,6 @@ sub validate {
     my ($iban) = @_;
 
     (my $to_check = $iban) =~ s/\s+//g;
-    $to_check =~ s/^IBAN//i;
     my $iso3166a2 = uc(substr($to_check, 0, 2));
 
     if (not exists($self->{$iso3166a2})) {
@@ -63,9 +62,14 @@ sub validate {
 sub is_sepa {
     my $self = shift;
     my ($iban) = @_;
-    $iban =~ s/IBAN\s*//;
+    (my $to_check = $iban) =~ s/\s+//g;
+    my $iso3166a2 = uc(substr($to_check, 0, 2));
 
-    return $self->{substr $iban, 0, 2}{is_sepa};
+    if (not exists($self->{$iso3166a2})) {
+        die "'$iso3166a2' is not an IBAN country code.\n";
+    }
+
+    return $self->{$iso3166a2}{is_sepa};
 }
 
 sub DESTROY { }
