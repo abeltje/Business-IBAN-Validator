@@ -88,7 +88,7 @@ sub AUTOLOAD {
 
 =head1 NAME
 
-Business::IBAN::Validator - A validator for IBANs.
+Business::IBAN::Validator - A validator for the structure of IBANs.
 
 =head1 SYNOPSIS
 

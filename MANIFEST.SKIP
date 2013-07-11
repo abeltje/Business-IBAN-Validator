@@ -1,5 +1,7 @@
 \..+\.sw[po]
 .git
-Makefile
+Makefile$
 pm_to_blib
 debian/
+MYMETA.json
+MYMETA.yml
