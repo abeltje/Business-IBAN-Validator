@@ -2,7 +2,7 @@
 use strict;
 use 5.008;
 
-use ExtUtils::MakeMaker 6.56;
+use ExtUtils::MakeMaker 6.55_01;
 
 WriteMakefile(
     NAME          => 'Business::IBAN::Validator',
