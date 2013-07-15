@@ -1,3 +1,8 @@
+libBusiness-IBAN-Validator-perl (0.2) UNRELEASED; urgency=low
+
+    Add developer tests, example script and fix MANIFEST*
+
+  -- abeltje <abeltje@test-smoke.org> Thu Jul 11 15:11:24 2013 +0200
 libbusiness-iban-validator-perl (0.1) UNRELEASED; urgency=low
 
   * Initial release.
