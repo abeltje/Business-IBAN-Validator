@@ -1,3 +1,8 @@
+libbusiness-iban-validator-perl (0.2) squeeze; urgency=low
+
+    Loosen the EUMM version requirement.
+
+  -- abeltje <abeltje@test-smoke.org> Mon Jul 15 15:26:30 2013 +0200
 libbusiness-iban-validator-perl (0.1) UNRELEASED; urgency=low
 
   * Initial release.
