@@ -207,7 +207,7 @@ my %iban_db = (
     'country' => 'Croatia',
     'iban_length' => '21',
     'iban_structure' => 'HR[0-9]{2}[0-9]{7}[0-9]{10}',
-    'is_sepa' => 0,
+    'is_sepa' => 1,
     'pattern' => 'HR2!n7!n10!n'
   },
   'HU' => {
