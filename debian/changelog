@@ -1,10 +1,17 @@
+libbusiness-iban-validator-perl (0.3) squeeze wheezy; urgency=low
+
+  * Release for wheezy.
+
+ -- Abe Timmerman <abetim@xs4all.net>  Mon, 07 Oct 2013 23:48:35 +0200
+
 libbusiness-iban-validator-perl (0.2) squeeze; urgency=low
 
-    Loosen the EUMM version requirement.
+  * Loosen the EUMM version requirement.
 
-  -- abeltje <abeltje@test-smoke.org> Mon Jul 15 15:26:30 2013 +0200
+ -- abeltje <abeltje@test-smoke.org>  Mon, 15 Jul 2013 15:26:30 +0200
+
 libbusiness-iban-validator-perl (0.1) UNRELEASED; urgency=low
 
   * Initial release.
 
- -- Abe Timmerman <abeltje@fidovcs.fritz.box>  Sun, 07 Jul 2013 12:02:30 +0200
+ -- Abe Timmerman <abeltje@test-smoke.org>  Sun, 07 Jul 2013 12:02:30 +0200
