@@ -1,9 +1,40 @@
-Changes on 2013-07-15 for repository at:
+Changes on 2013-11-04 for repository at:
   Fetch URL: ssh://git@github.com/abeltje/Business-IBAN-Validator
   Push  URL: ssh://git@github.com/abeltje/Business-IBAN-Validator
 
 Enjoy!
 
+________________________________________________________________________________
+[b661912] by abeltje on Fri, 18 Oct 2013 10:01:39 +0200
+
+     As of 1 July 2013, Croatia is part of SEPA.
+
+
+M	t/020-iban-auto.t
+________________________________________________________________________________
+[0d93ee3] by abeltje on Fri, 18 Oct 2013 09:58:24 +0200
+
+     As of 1 July 2013, Croatia is part of the SEPA.
+
+
+M	lib/Business/IBAN/Database.pm
+________________________________________________________________________________
+[ed0100b] by Abe Timmerman on Fri, 18 Oct 2013 09:53:17 +0200
+
+     Re-release for debian.
+
+
+M	debian/changelog
+M	lib/Business/IBAN/Validator.pm
+________________________________________________________________________________
+[8733aa9] by abeltje on Mon, 15 Jul 2013 15:29:44 +0200
+
+     Autocommit for distribution Business::IBAN::Validator 0.02
+
+
+M	Changes
+M	debian/changelog
+M	lib/Business/IBAN/Validator.pm
 ________________________________________________________________________________
 [337c050] by abeltje on Mon, 15 Jul 2013 15:26:30 +0200
 
@@ -44,8 +75,7 @@ M	debian/changelog
 ________________________________________________________________________________
 [7e0e0f0] by abeltje on Sun, 7 Jul 2013 11:50:40 +0200
 
-     Add debian/ directory for easy packaging, don't include in the
-        tarball.
+     Add debian/ directory for easy packaging, don't include in the tarball.
 
 
 M	MANIFEST.SKIP

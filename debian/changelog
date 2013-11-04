@@ -1,3 +1,9 @@
+libbusiness-iban-validator-perl (0.4) UNRELEASED; urgency=low
+
+    * As of 1 July 2013, Croatia is part of SEPA.
+
+ -- abeltje <abeltje@test-smoke.org>  Fri, 18 Oct 2013 10:01:39 +0200
+
 libbusiness-iban-validator-perl (0.3) squeeze wheezy; urgency=low
 
   * Release for wheezy.
