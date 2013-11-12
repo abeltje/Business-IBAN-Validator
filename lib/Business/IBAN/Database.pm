@@ -71,7 +71,7 @@ my %iban_db = (
     'pattern' => 'BH2!n4!a14!c'
   },
   'BR' => {
-    'country' => 'BRAZIL',
+    'country' => 'Brazil',
     'iban_length' => '29',
     'iban_structure' => 'BR[0-9]{2}[0-9]{8}[0-9]{5}[0-9]{10}[A-Z]{1}[A-Za-z0-9]{1}',
     'is_sepa' => 0,
@@ -246,7 +246,7 @@ my %iban_db = (
     'pattern' => 'IT2!n1!a5!n5!n12!c'
   },
   'KW' => {
-    'country' => 'KUWAIT',
+    'country' => 'Kuwait',
     'iban_length' => '30',
     'iban_structure' => 'KW[0-9]{2}[A-Z]{4}[A-Za-z0-9]{22}',
     'is_sepa' => 0,
@@ -260,7 +260,7 @@ my %iban_db = (
     'pattern' => 'KZ2!n3!n13!c'
   },
   'LB' => {
-    'country' => 'LEBANON',
+    'country' => 'Lebanon',
     'iban_length' => '28',
     'iban_structure' => 'LB[0-9]{2}[0-9]{4}[A-Za-z0-9]{20}',
     'is_sepa' => 0,
@@ -385,6 +385,13 @@ my %iban_db = (
     'is_sepa' => 1,
     'pattern' => 'PT2!n4!n4!n11!n2!n'
   },
+  'QA' => {
+    'country' => 'Qatar',
+    'iban_length' => '29',
+    'iban_structure' => 'QA[0-9]{2}[A-Z]{4}[A-Za-z0-9]{21}',
+    'is_sepa' => 0,
+    'pattern' => 'QA2!n4!a21!c'
+  },
   'RO' => {
     'country' => 'Romania',
     'iban_length' => '24',
@@ -472,7 +479,7 @@ sub numify_iban {
 
     my $to_check = substr($iban, 4) . substr($iban, 0, 4);
     $to_check =~ s/([A-Za-z])/$lettermap{uc($1)}/g;
-    
+
     return $to_check;
 }
 
@@ -516,7 +523,7 @@ Business::IBAN::Database - Simple database for checking IBANs
 =head1 DESCRIPTION
 
 This module was generated from the IBAN_Registry.pdf document supplied by
-SWIFT version 45 April 2013.
+SWIFT version 45 April 2013, with changes from version 46 November 2013.
 
 All functions are exported by default.
 

@@ -8,9 +8,6 @@ MANIFEST.SKIP
 META.json
 META.yml
 README
-support/extract_ibandb.pl
-support/IBAN_Registry.pdf
-support/IBAN_Registry.txt
 t/00-load.t
 t/010-basic.t
 t/020-iban-auto.t

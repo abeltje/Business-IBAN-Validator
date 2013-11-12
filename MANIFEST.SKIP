@@ -3,5 +3,6 @@
 Makefile$
 pm_to_blib
 debian/
+support/
 MYMETA.json
 MYMETA.yml
