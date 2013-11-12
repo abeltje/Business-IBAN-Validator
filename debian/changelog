@@ -1,3 +1,13 @@
+libbusiness-iban-validator-perl (0.5) squeeze wheezy; urgency=low
+
+    * RT-90271 - Peter Heimann: Update to IBAN Registry Release 46 November 2013
+    - Country name capitalization should be unified
+    - Country Qatar added in SWIFT IBAN Registry, Release 46, November 2013
+    - Added the IBAN Registry document Release 46
+    - Remove support/ dir from the CPAN-distribution
+
+ -- abeltje <abeltje@test-smoke.org>  Tue, 12 Nov 2013 11:51:11 +0100
+
 libbusiness-iban-validator-perl (0.4) UNRELEASED; urgency=low
 
     * As of 1 July 2013, Croatia is part of SEPA.

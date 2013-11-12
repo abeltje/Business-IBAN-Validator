@@ -1,9 +1,36 @@
-Changes on 2013-11-04 for repository at:
+Changes on 2013-11-12 for repository at:
   Fetch URL: ssh://git@github.com/abeltje/Business-IBAN-Validator
   Push  URL: ssh://git@github.com/abeltje/Business-IBAN-Validator
 
 Enjoy!
 
+________________________________________________________________________________
+[dc07c3b] by abeltje on Tue, 12 Nov 2013 11:51:11 +0100
+
+     RT-90271 - Peter Heimann: Update to IBAN Registry Release 46 November
+        2013
+        - Country name capitalization should be unified
+        - Country Qatar added in SWIFT IBAN Registry, Release 46, November
+        2013
+        - Added the IBAN Registry document Release 46
+        - Remove support/ dir from the CPAN-distribution
+
+
+M	MANIFEST
+M	MANIFEST.SKIP
+M	lib/Business/IBAN/Database.pm
+A	support/IBAN_Registry_201311.pdf
+A	support/rt-90271-Business-IBAN-Validator.patch
+M	t/020-iban-auto.t
+________________________________________________________________________________
+[aa5f448] by abeltje on Mon, 4 Nov 2013 23:18:34 +0100
+
+     Autocommit for distribution Business::IBAN::Validator 0.04
+
+
+M	Changes
+M	debian/changelog
+M	lib/Business/IBAN/Validator.pm
 ________________________________________________________________________________
 [b661912] by abeltje on Fri, 18 Oct 2013 10:01:39 +0200
 
