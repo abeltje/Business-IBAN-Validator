@@ -139,6 +139,6 @@ Return the SEPA status of the country (as denoted by the first two letters).
 
 =head1 STUFF
 
-(c) MMXIII - Abe Timmerman <abeltje@cpan.org>
+(c) MMXIII-MMXV - Abe Timmerman <abeltje@cpan.org>
 
 =cut

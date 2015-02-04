@@ -13,9 +13,9 @@ The validation consists of a number of tests:
 On top of that, the validator also knows which countries participate in SEPA
 (Single Euro Payment Area).
 
-The "Database" with this information is extracted from a document published by
-SWIFT (Society for Worldwide Interbank Financial Telecommunication) in April
-2013 (IBAN Registry Release 45).
+The "Database" with this information is based on a document published by
+SWIFT (Society for Worldwide Interbank Financial Telecommunication) in January
+2015 (IBAN Registry Release 54).
 
 INSTALLATION
 
@@ -44,7 +44,7 @@ You can also look for information at:
 
 COPYRIGHT AND LICENCE
 
-Copyright (C) 2013 Abe Timmerman
+Copyright (C) 2013-2015 Abe Timmerman
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
