@@ -207,7 +207,7 @@ my %iban_db = (
     'country' => 'Croatia',
     'iban_length' => '21',
     'iban_structure' => 'HR[0-9]{2}[0-9]{7}[0-9]{10}',
-    'is_sepa' => 1,
+    'is_sepa' => 0,
     'pattern' => 'HR2!n7!n10!n'
   },
   'HU' => {
@@ -244,6 +244,13 @@ my %iban_db = (
     'iban_structure' => 'IT[0-9]{2}[A-Z]{1}[0-9]{5}[0-9]{5}[A-Za-z0-9]{12}',
     'is_sepa' => 1,
     'pattern' => 'IT2!n1!a5!n5!n12!c'
+  },
+  'JO' => {
+    'country' => 'Jordan',
+    'iban_length' => '30',
+    'iban_structure' => 'JO[0-9]{2}[A-Z]{4}[0-9]{4}[0-9]{18}',
+    'is_sepa' => 0,
+    'pattern' => 'JO2!a2!n4!n18!c' # 'JO2!a2!n4!a4!n18!c' according to registry
   },
   'KW' => {
     'country' => 'Kuwait',
@@ -448,6 +455,13 @@ my %iban_db = (
     'is_sepa' => 0,
     'pattern' => 'TN592!n3!n13!n2!n'
   },
+  'TL' => {
+    'country' => 'Timor-Leste',
+    'iban_length' => '23',
+    'iban_structure' => 'TL38[0-9]{3}[0-9]{14}[0-9]{2}',
+    'is_sepa' => 0,
+    'pattern' => 'TL2!n3!n14!n2!n'
+  },
   'TR' => {
     'country' => 'Turkey',
     'iban_length' => '26',
@@ -461,6 +475,13 @@ my %iban_db = (
     'iban_structure' => 'VG[0-9]{2}[A-Z]{4}[0-9]{16}',
     'is_sepa' => 0,
     'pattern' => 'VG2!n4!a16!n'
+  },
+  'XK' => {
+    'country' => 'Republic of Kosovo',
+    'iban_length' => '20',
+    'iban_structure' => 'XK[0-9]{2}[0-9]{4}[0-9]{10}[0-9]{2}',
+    'is_sepa' => 0,
+    'pattern' => 'XK2!n4!n10!n2!n'
   }
 );
 
@@ -522,8 +543,9 @@ Business::IBAN::Database - Simple database for checking IBANs
 
 =head1 DESCRIPTION
 
-This module was generated from the IBAN_Registry.pdf document supplied by
-SWIFT version 45 April 2013, with changes from version 46 November 2013.
+This module was originally generated from the IBAN_Registry.pdf document
+supplied by SWIFT version 45 (April 2013) and updated to version 54
+(January 2015).
 
 All functions are exported by default.
 
@@ -544,6 +566,6 @@ Returns the remainder of division by 97.
 
 =head1 STUFF
 
-(c) MMXIII - Abe Timmerman <abeltje@cpan.org>
+(c) MMXIII-MMXV - Abe Timmerman <abeltje@cpan.org>
 
 =cut
