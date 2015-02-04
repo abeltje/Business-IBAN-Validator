@@ -1,3 +1,11 @@
+libbusiness-iban-validator-perl (0.6) squeeze wheezy; urgency=low
+
+    * Merge pull request #1 from Tekki/master
+    
+    Update to registry version 54 (january 2015) by Tekki.
+
+ -- Abe Timmerman <abeltje@gmail.com>  Wed, 04 Feb 2015 16:00:08 +0100
+
 libbusiness-iban-validator-perl (0.5) squeeze wheezy; urgency=low
 
     * RT-90271 - Peter Heimann: Update to IBAN Registry Release 46 November 2013

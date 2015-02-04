@@ -1,9 +1,34 @@
-Changes on 2013-11-12 for repository at:
+Changes on 2015-02-04 for repository at:
   Fetch URL: ssh://git@github.com/abeltje/Business-IBAN-Validator
   Push  URL: ssh://git@github.com/abeltje/Business-IBAN-Validator
 
 Enjoy!
 
+________________________________________________________________________________
+[d69a246] by Abe Timmerman on Wed, 4 Feb 2015 16:00:08 +0100
+
+     Merge pull request #1 from Tekki/master
+
+        Update to registry version 54 (january 2015) by Tekki.
+________________________________________________________________________________
+[084bc5c] by Tekki on Wed, 4 Feb 2015 15:34:05 +0100
+
+     Update to registry version 54 (january 2015).
+
+
+M	README
+M	lib/Business/IBAN/Database.pm
+M	lib/Business/IBAN/Validator.pm
+M	t/020-iban-auto.t
+________________________________________________________________________________
+[b083599] by abeltje on Tue, 12 Nov 2013 11:53:51 +0100
+
+     Autocommit for distribution Business::IBAN::Validator 0.05
+
+
+M	Changes
+M	debian/changelog
+M	lib/Business/IBAN/Validator.pm
 ________________________________________________________________________________
 [dc07c3b] by abeltje on Tue, 12 Nov 2013 11:51:11 +0100
 
