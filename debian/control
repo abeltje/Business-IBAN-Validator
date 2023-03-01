@@ -3,7 +3,8 @@ Section: perl
 Priority: optional
 Build-Depends: debhelper (>= 7)
 Build-Depends-Indep: perl (>= 5.6.0-12),
-    libtest-exception-perl,
+    libtest-fatal-perl,
+    libtest-warnings-perl,
     libtest-simple-perl
 Maintainer: Abe Timmerman <abeltje@cpan.org>
 Standards-Version: 3.8.0
@@ -13,4 +14,4 @@ Architecture: all
 Depends: ${perl:Depends},
     ${misc:Depends},
 Description: Provides a validator for IBANs. It can only validate the form of
- the IBAN and tell you if it's an existing Bank Account Number.
+ the IBAN and tell you if it could be an existing Bank Account Number.

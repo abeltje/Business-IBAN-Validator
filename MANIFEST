@@ -7,11 +7,13 @@ MANIFEST			This list of files
 MANIFEST.SKIP
 META.json
 META.yml
-README
+README.md
 t/00-load.t
 t/010-basic.t
 t/020-iban-auto.t
+t/Test/abeltje.pm
 xt/00-manifest.t
 xt/01-compile.t
 xt/02-pod_syntax.t
 xt/03-pod-coverage.t
+xt/04-kwalitee.t

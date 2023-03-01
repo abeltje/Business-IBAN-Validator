@@ -1,8 +1,5 @@
-#! perl -w
-use strict;
-
-use Test::More;
-use Test::Exception;
+#! perl -I. -w
+use t::Test::abeltje;
 
 use Business::IBAN::Validator;
 

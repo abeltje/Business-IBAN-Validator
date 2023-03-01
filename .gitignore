@@ -1,0 +1,7 @@
+.*.swp
+Makefile
+Makefile.bak
+MYMETA.*
+pm_to_blib
+blib/
+cover_db/

@@ -1,4 +1,4 @@
-Business-IBAN-Validator
+# Business-IBAN-Validator
 
 This module provides a validator for IBANs (International Bank Account Numbers)
 (ISO 13616).
@@ -17,35 +17,39 @@ The "Database" with this information is based on a document published by
 SWIFT (Society for Worldwide Interbank Financial Telecommunication) in January
 2015 (IBAN Registry Release 54).
 
-INSTALLATION
+# INSTALLATION
 
 To install this module, run the following commands:
 
-        perl Makefile.PL
-        make
-        make test
-        make install
+```bash
+perl Makefile.PL
+make
+make test
+make install
+```
 
-SUPPORT AND DOCUMENTATION
+# SUPPORT AND DOCUMENTATION
 
 After installing, you can find documentation for this module with the
-perldoc command.
+`perldoc` command.
 
-    perldoc Business::IBAN::Validator
+```bash
+perldoc Business::IBAN::Validator
+```
 
-You can also look for information at:
+You can also look for information at GitHub:
 
-    RT, CPAN's request tracker
-        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Business-IBAN-Validator
+[`https://github.com/abeltje/Business-IBAN-Validator`](https://github.com/abeltje/Business-IBAN-Validator)
 
-    Search CPAN
-        http://search.cpan.org/dist/Business-IBAN-Validator
+# COPYRIGHT
 
+&copy; 2013-2015 Abe Timmerman
 
-COPYRIGHT AND LICENCE
-
-Copyright (C) 2013-2015 Abe Timmerman
+# LICENSE
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
 
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.

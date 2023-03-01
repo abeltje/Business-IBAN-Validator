@@ -137,8 +137,17 @@ Return 1 on success.
 
 Return the SEPA status of the country (as denoted by the first two letters).
 
-=head1 STUFF
+=head1 COPYRIGHT
 
-(c) MMXIII-MMXV - Abe Timmerman <abeltje@cpan.org>
+E<copy> MMXIII-MMXV - Abe Timmerman <abeltje@cpan.org>
+
+=head1 LICENSE
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 =cut
