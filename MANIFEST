@@ -1,6 +1,7 @@
 bin/chk-iban
 Changes
 lib/Business/IBAN/Database.pm
+lib/Business/IBAN/Util.pm
 lib/Business/IBAN/Validator.pm
 Makefile.PL
 MANIFEST			This list of files
@@ -9,6 +10,7 @@ META.json
 META.yml
 README.md
 t/00-load.t
+t/000-util.t
 t/010-basic.t
 t/020-iban-auto.t
 t/Test/abeltje.pm

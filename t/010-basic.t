@@ -19,7 +19,7 @@ use Business::IBAN::Validator;
     $e = exception { $v->validate($iban) };
     like(
         $e,
-        qr/^'$iban' has incorrect length 17 \(expected 18 for The Netherlands\).\n\z/,
+        qr/^'$iban' has incorrect length 17 \(expected 18 for Netherlands \(The\)\).\n\z/,
         "invalid length"
     );
 
@@ -27,7 +27,7 @@ use Business::IBAN::Validator;
     $e = exception { $v->validate($iban) };
     like(
         $e,
-        qr/^'NL00ABNA123456789x' does not match the pattern 'NL2!n4!a10!n'for The Netherlands./,
+        qr/^'NL00ABNA123456789x' does not match the pattern 'NL2!n4!a10!n'for Netherlands/,
         "Pattern check"
     );
 
