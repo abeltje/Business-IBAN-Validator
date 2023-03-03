@@ -1,3 +1,9 @@
+libbusiness-iban-validator-perl (0.6-01) stable; urgency=low
+
+    * Make VERSION a string so we can have beta-versions
+
+ -- Abe Timmerman <abeltje@cpan.org>  Fri, 03 Mar 2023 12:57:25 +0100
+
 libbusiness-iban-validator-perl (0.6) squeeze wheezy; urgency=low
 
     * Merge pull request #1 from Tekki/master

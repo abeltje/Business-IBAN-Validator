@@ -2,7 +2,7 @@ package Business::IBAN::Validator;
 use warnings;
 use strict;
 
-our $VERSION = '0.06';
+our $VERSION = '0.06_01';
 
 use Hash::Util qw/unlock_hash lock_hash/;
 use Business::IBAN::Database;
