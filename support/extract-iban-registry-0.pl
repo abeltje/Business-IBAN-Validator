@@ -6,11 +6,12 @@ use Data::Dumper; ($Data::Dumper::Indent, $Data::Dumper::Sortkeys) = (1, 1);
 use Business::IBAN::Util qw( numify_iban mod97 );
 
 my %option = (
-    file => 'support/swift_iban_registry_0.txt',
-    type => 'db',
+    file     => 'support/swift_iban_registry_0.txt',
+    type     => 'db',
+    revision => 93,
 );
 use Getopt::Long;
-GetOptions(\%option, qw< file|f=s type|t=s >);
+GetOptions(\%option, qw< file|f=s type|t=s revision|r=i >);
 
 my %swift_fields = (
     'Name of country'                     => 'country',
@@ -63,11 +64,10 @@ for (my $i = 0; $i < $#{ $db{iso3166} }; $i++) {
         }
     }
 }
-write_code(\%iban_db, $option{type});
+write_code(\%iban_db, $option{type}, $option{revision});
 
 sub write_code {
-    my ($iban_db, $type) = @_;
-    my ($revision) = (93);
+    my ($iban_db, $type, $revision) = @_;
 
     if ($type eq 'db') {
         my %db = map {
