@@ -1,3 +1,10 @@
+libbusiness-iban-validator-perl (0.7-0) stable; urgency=low
+
+    *Regenerate the example tests from v95
+
+
+ -- Abe Timmerman <abeltje@cpan.org>
+ Mon 09 Oct 2023 14:21:33 +0200
 libbusiness-iban-validator-perl (0.7) stable; urgency=low
 
     * Autocommit for distribution Business::IBAN::Validator 0.06_02 (test)
