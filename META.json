@@ -41,6 +41,9 @@
    },
    "release_status" : "unstable",
    "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/abeltje/Business-IBAN-Validator/issues"
+      },
       "repository" : {
          "type" : "git",
          "url" : "https://github.com/abeltje/Business-IBAN-Validator.git",
@@ -48,8 +51,5 @@
       }
    },
    "version" : "0.07_00",
-   "x_bugtracker" : {
-      "web" : "https://github.com/abeltje/Business-IBAN-Validator/issues"
-   },
    "x_serialization_backend" : "JSON::PP version 4.16"
 }

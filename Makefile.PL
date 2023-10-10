@@ -39,9 +39,9 @@ WriteMakefile(
                 url  => 'https://github.com/abeltje/Business-IBAN-Validator.git',
                 web  => 'https://github.com/abeltje/Business-IBAN-Validator',
             },
-        },
-        bugtracker => {
-            web => 'https://github.com/abeltje/Business-IBAN-Validator/issues',
+            bugtracker => {
+                web => 'https://github.com/abeltje/Business-IBAN-Validator/issues',
+            },
         },
     },
 

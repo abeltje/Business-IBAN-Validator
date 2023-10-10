@@ -23,8 +23,7 @@ requires:
   Hash::Util: '0'
   perl: '5.008'
 resources:
+  bugtracker: https://github.com/abeltje/Business-IBAN-Validator/issues
   repository: https://github.com/abeltje/Business-IBAN-Validator.git
 version: 0.07_00
-x_bugtracker:
-  web: https://github.com/abeltje/Business-IBAN-Validator/issues
 x_serialization_backend: 'CPAN::Meta::YAML version 0.018'
