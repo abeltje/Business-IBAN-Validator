@@ -1,3 +1,12 @@
+libbusiness-iban-validator-perl (0.7-1) stable; urgency=low
+
+    * Remove the fixed testcount from t/00-load.t
+    
+    Now that the 'no warnings' test is only run for a true
+    $ENV{AUTHOR_TESTING}, a fixed test count doesn't make sense.
+
+
+ -- Abe Timmerman <abeltje@cpan.org> Tue, 10 Oct 2023 10:27:00 +0200
 libbusiness-iban-validator-perl (0.7-0) stable; urgency=low
 
     * Regenerate the example tests from v95

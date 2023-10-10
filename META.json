@@ -50,6 +50,6 @@
          "web" : "https://github.com/abeltje/Business-IBAN-Validator"
       }
    },
-   "version" : "0.07_00",
+   "version" : "0.07_01",
    "x_serialization_backend" : "JSON::PP version 4.16"
 }
